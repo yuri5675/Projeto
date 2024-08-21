@@ -1,0 +1,105 @@
+#rodape{
+  
+    width: 100vw;
+    background-color: #000;
+    padding: 120px 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 270px;
+    justify-content: center;
+
+
+}
+
+.rodape_lado_esquerdo{
+  
+    margin-top: 50px;
+
+}
+
+.rodape_lado_esquerdo p{
+    color: #cccc;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 32px;
+    width: 430px;
+
+}
+
+
+.rodape_lado_direito{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.rodape_lado_direito span{
+    color: #fff;
+    font-size: 2.25rem;
+    font-weight: bold;
+
+
+}
+
+
+
+.rodape_direitos{
+   
+    color: #8f8f8f;
+    font-size: 1.12rem;
+    font-weight: 400;
+
+}
+
+/*responsividade*/
+
+@media(max-width: 1024px){
+    #rodape{
+        grid-template-columns: 1fr;
+        gap: 100px;
+        text-align: center;
+    }
+
+    .rodape_lado_esquerdo{
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100vw;
+        padding: 20px;
+
+    }
+
+    .rodape_lado_esquerdo p{
+        text-align: center;
+    }
+
+}
+
+
+
+
+@media(max-width: 500px){
+
+
+    .rodape_lado_esquerdo p{
+        font-size: 1.2rem;
+        width: 100vw;
+
+    }
+
+
+    .rodape_lado_esquerdo{
+        width: 100vw;
+        padding: 7px;
+        display: flex;
+    }
+
+    .rodape_lado_direito span{
+        font-size: 1.7rem;
+
+    }
+
+
+}

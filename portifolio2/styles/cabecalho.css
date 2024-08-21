@@ -1,0 +1,55 @@
+#cabecalho{
+  border: 7px solid red;
+    width: 100%;
+    max-width: 1850px;
+    margin: 0 auto;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    
+    
+
+
+
+}
+
+
+#cabecalho h1{
+    font-size: 3.12rem;
+    color: #141414;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 7px ;
+    
+
+}
+
+.cabecalho_menu_ul{
+   
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.cabecalho_menu_ul a{
+    color: #22D4FD;
+    text-decoration: none;
+    font-size: 1.125rem;
+    display: block;
+    padding: 10px 20px;
+    
+
+}
+
+#cabecalho img{
+    max-width: 130px;
+    
+}

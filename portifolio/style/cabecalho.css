@@ -1,0 +1,63 @@
+#cabecalho{
+  
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    
+
+
+
+}
+
+#cabecalho h1{
+    font-size: 3.12rem;
+    color: #141414;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+}
+
+.cabecalho_menu_ul{
+   
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.cabecalho_menu_ul a{
+    color: #141414;
+    text-decoration: none;
+    font-size: 1.125rem;
+    display: block;
+    padding: 10px 20px;
+    
+
+}
+
+/*responsividade*/
+@media(max-width: 700px){
+    #cabecalho{
+        flex-direction: column;
+        gap: 50px
+    }
+
+
+    .cabecalho_menu_ul a{
+        background-color: #141414;
+        border-radius: 5px;
+        color: #141414 ;
+        align-items: center ;
+    }
+}
