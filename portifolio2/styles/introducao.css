@@ -1,0 +1,65 @@
+#introducao{
+   
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    text-align: center;
+   
+    
+
+}
+
+
+#introducao img{
+    width: 140% ;
+    height: auto;
+    position: relative;
+    
+  
+    
+
+}
+
+
+
+
+
+.introducao_breve p{
+    
+   
+    padding: 75px;
+    font-size: 2.0rem;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 50ch;
+    margin-bottom: 60px;
+    color: #e0e0e0;
+
+
+}
+
+.introducao_breve span {
+   
+    color: #22D4FD;
+    font-size: 1.5rem;
+    position: relative;
+    top: -19px;
+    
+    
+
+}
+
+.introducao_breve strong{
+    color: #22D4FD;
+}
+
+.introducao_breve img{
+   
+    max-width: 209px;
+    position: relative;
+    left: 225px;
+
+
+}
+

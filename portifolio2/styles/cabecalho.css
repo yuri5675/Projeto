@@ -1,5 +1,5 @@
 #cabecalho{
-  border: 7px solid red;
+  
     width: 100%;
     max-width: 1850px;
     margin: 0 auto;
@@ -10,6 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 1;
+    
     
     
     

@@ -1,0 +1,40 @@
+#secao{
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr -2fr;
+    text-align: center;
+   
+
+
+}
+
+.secao_lado_direito{
+
+}
+
+.secao_lado_direito h1{
+    color: #062e38;
+font-size: 80px;
+text-align: center;
+padding: 30px;
+
+}
+
+#secao_lado_esquerdo img{
+
+}
+#secao_lado_esquerdo h3{
+    border: 7px solid red;
+    padding: 75px;
+    font-size: 2.0rem;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 50ch;
+    margin-bottom: 60px;
+    color: #e0e0e0;
+    position: relative;
+    left: 97px;
+    top: 100px;
+
+}
