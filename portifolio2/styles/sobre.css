@@ -1,17 +1,17 @@
 #secao{
-    max-width: 1350px;
+
+    width: 100%;
+  max-width: 1350px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr -2fr;
-    text-align: center;
+    
+   
    
 
 
 }
 
-.secao_lado_direito{
 
-}
+
 
 .secao_lado_direito h1{
     color: #062e38;
@@ -21,11 +21,9 @@ padding: 30px;
 
 }
 
-#secao_lado_esquerdo img{
 
-}
 #secao_lado_esquerdo h3{
-    border: 7px solid red;
+   
     padding: 75px;
     font-size: 2.0rem;
     font-weight: 400;
@@ -34,7 +32,40 @@ padding: 30px;
     margin-bottom: 60px;
     color: #e0e0e0;
     position: relative;
-    left: 97px;
+    left: 270px;
     top: 100px;
 
 }
+
+#experiencia_paragrafo{
+   
+    font-size: 1.4rem;
+    line-height: 20px;
+    width: 525px;
+    position: relative;
+    left: 700px;
+    top: -140px;
+    color: #22D4FD;
+    
+
+
+
+}
+
+.img_1{
+    width: 50%;
+    height: auto;
+    position: relative;
+    right:180px;
+    top: -550px;
+
+}
+
+
+.img_2{
+    position: relative;
+    right: 150%;
+    top: -350px;
+
+}
+
