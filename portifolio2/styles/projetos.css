@@ -77,14 +77,15 @@
 
 .texto_1{
     position: relative;
-    right: 520px;
+    right: 370px;
     top: -50px;
 
 }
 
 .texto_2{
     position: relative;
-    left: 520px;
+    left: 368px;
     top: -78px;
+    padding: 5px;
 
 }
