@@ -1,5 +1,10 @@
 #contato {
-    
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
    
   
    
@@ -23,15 +28,38 @@
 #campos{
     
     width:200px;
-   
-    padding:10px;
+   padding:10px;
     color: #0db2db;
     text-align: center;
     position: relative;
-    left: 660px;
+    left: 600px;
     
     
     
+    
+}
+
+
+#campos label{
+    font-size: 16px;
+   text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 35px;
+
+
+}
+
+
+
+#campos input{ 
+   
+    padding: 10px 15px;
+   border: none;
+border-radius: 7px;
+  font-weight: 500;
+    outline: none;
+
+
 }
 
 .msg{
@@ -39,27 +67,39 @@
     width: 300px;
     height: 200px;
     position: relative;
-    right: 50px;
+    right: 55px;
+
    
   
     
 }
 
-.nome{
-    border-radius: 15px;
-
-}
 
 .ass{
-    border-radius: 15px;
-    border-radius: 15px;
+  position: relative;
+  right:  3px;
+    
     width: 190px;
     height: 100px;
    
 
 }
 
-.em{
-    border-radius: 15px;
+@media(max-width:1150px){
+   #campos{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 480px;
+    
+    
+    
+   
 
+    
+   }
+
+    
 }
+

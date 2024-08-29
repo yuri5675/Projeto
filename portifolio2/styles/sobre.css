@@ -1,4 +1,5 @@
 #secao{
+    max-width: 1350px;
 
     width: 100%;
   max-width: 1350px;
@@ -23,7 +24,7 @@ padding: 30px;
 
 
 #secao_lado_esquerdo h3{
-   
+  
     padding: 75px;
     font-size: 2.0rem;
     font-weight: 400;
@@ -38,8 +39,7 @@ padding: 30px;
 }
 
 #experiencia_paragrafo{
-   
-    font-size: 1.4rem;
+  font-size: 1.4rem;
     line-height: 20px;
     width: 525px;
     position: relative;
@@ -69,3 +69,13 @@ padding: 30px;
 
 }
 
+
+@media(max-width: 1150px){
+    #experiencia_paragrafo{
+        border: 7px solid red;
+        position: relative;
+        left: 615px;
+    }
+
+
+}
